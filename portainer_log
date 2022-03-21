@@ -1,0 +1,19 @@
+2022-03-21T18:17:58.199378390Z 2022/03/21 18:17:58 Warning: the --template-file flag is deprecated and will likely be removed in a future version of Portainer.
+2022-03-21T18:17:58.474619222Z 2022/03/21 18:17:58 [ERROR] [http,client] [message: unexpected status code] [status_code: 403]
+2022-03-21T18:17:58.474649225Z 2022/03/21 18:17:58 [WARN] [exec,extensions] [message: unable to retrieve extensions manifest via Internet. Extensions will be retrieved from local cache and might not be up to date] [err: Invalid response status (expecting 200)]
+2022-03-21T18:17:58.567025365Z 2022/03/21 18:17:58 server: Reverse tunnelling enabled
+2022-03-21T18:17:58.567036415Z 2022/03/21 18:17:58 server: Fingerprint 24:eb:2e:4b:0a:9f:05:92:3e:66:75:71:52:6f:6a:97
+2022-03-21T18:17:58.567038369Z 2022/03/21 18:17:58 server: Listening on 0.0.0.0:8000...
+2022-03-21T18:17:58.567195893Z 2022/03/21 18:17:58 Starting Portainer 1.24.2 on :9000
+2022-03-21T18:17:58.567279021Z 2022/03/21 18:17:58 [DEBUG] [chisel, monitoring] [check_interval_seconds: 10.000000] [message: starting tunnel management process]
+2022-03-21T18:22:58.566143558Z 2022/03/21 18:22:58 No administrator account was created after 5 min. Shutting down the Portainer instance for security reasons.
+2022-03-21T18:22:58.989191054Z 2022/03/21 18:22:58 Warning: the --template-file flag is deprecated and will likely be removed in a future version of Portainer.
+2022-03-21T18:22:59.245238568Z 2022/03/21 18:22:59 [ERROR] [http,client] [message: unexpected status code] [status_code: 403]
+2022-03-21T18:22:59.245444439Z 2022/03/21 18:22:59 [WARN] [exec,extensions] [message: unable to retrieve extensions manifest via Internet. Extensions will be retrieved from local cache and might not be up to date] [err: Invalid response status (expecting 200)]
+2022-03-21T18:22:59.246198946Z 2022/03/21 18:22:59 Templates already registered inside the database. Skipping template import.
+2022-03-21T18:22:59.247118512Z 2022/03/21 18:22:59 Instance already has defined endpoints. Skipping the endpoint defined via CLI.
+2022-03-21T18:22:59.247884912Z 2022/03/21 18:22:59 server: Reverse tunnelling enabled
+2022-03-21T18:22:59.247892303Z 2022/03/21 18:22:59 server: Fingerprint 24:eb:2e:4b:0a:9f:05:92:3e:66:75:71:52:6f:6a:97
+2022-03-21T18:22:59.247893902Z 2022/03/21 18:22:59 server: Listening on 0.0.0.0:8000...
+2022-03-21T18:22:59.248050063Z 2022/03/21 18:22:59 Starting Portainer 1.24.2 on :9000
+2022-03-21T18:22:59.248093674Z 2022/03/21 18:22:59 [DEBUG] [chisel, monitoring] [check_interval_seconds: 10.000000] [message: starting tunnel management process]
