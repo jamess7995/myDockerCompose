@@ -17,3 +17,4 @@
 2022-03-21T18:22:59.247893902Z 2022/03/21 18:22:59 server: Listening on 0.0.0.0:8000...
 2022-03-21T18:22:59.248050063Z 2022/03/21 18:22:59 Starting Portainer 1.24.2 on :9000
 2022-03-21T18:22:59.248093674Z 2022/03/21 18:22:59 [DEBUG] [chisel, monitoring] [check_interval_seconds: 10.000000] [message: starting tunnel management process]
+2022-03-21T18:27:59.247636260Z 2022/03/21 18:27:59 No administrator account was created after 5 min. Shutting down the Portainer instance for security reasons.
