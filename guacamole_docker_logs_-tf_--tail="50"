@@ -1,50 +1,50 @@
-2022-03-23T21:59:30.036214450Z 21:59:30.036 [localhost-startStop-1] INFO  o.a.g.rest.auth.HashTokenSessionMap - Sessions will expire after 60 minutes of inactivity.
-2022-03-23T21:59:30.269609580Z 21:59:30.269 [localhost-startStop-1] INFO  o.a.g.a.mysql.conf.MySQLEnvironment - Installed JDBC driver for MySQL/MariaDB detected as "MySQL Connector/J".
-2022-03-23T21:59:30.812744261Z 21:59:30.812 [localhost-startStop-1] INFO  o.a.g.extension.ExtensionModule - Extension "MySQL Authentication" (mysql) loaded.
-2022-03-23T21:59:30.890450548Z 21:59:30.890 [localhost-startStop-1] INFO  o.a.g.t.w.WebSocketTunnelModule - Loading JSR-356 WebSocket support...
-2022-03-23T21:59:31.523382772Z 23-Mar-2022 21:59:31.523 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/guacamole/tomcat/webapps/guacamole.war] has finished in [2,605] ms
-2022-03-23T21:59:31.524770106Z 23-Mar-2022 21:59:31.524 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
-2022-03-23T21:59:31.531307917Z 23-Mar-2022 21:59:31.531 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2644 ms
-2022-03-23T22:00:53.033438559Z 23-Mar-2022 22:00:53.033 INFO [Thread-3] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
-2022-03-23T22:00:53.035692187Z 23-Mar-2022 22:00:53.035 INFO [Thread-3] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
-2022-03-23T22:00:53.046251343Z 23-Mar-2022 22:00:53.046 INFO [Thread-3] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
-2022-03-23T22:00:53.057491021Z 23-Mar-2022 22:00:53.057 INFO [Thread-3] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
-2022-03-23T22:00:58.469121337Z 23-Mar-2022 22:00:58.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.77
-2022-03-23T22:00:58.469202839Z 23-Mar-2022 22:00:58.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 13 2022 19:13:33 UTC
-2022-03-23T22:00:58.469295436Z 23-Mar-2022 22:00:58.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.77.0
-2022-03-23T22:00:58.469381651Z 23-Mar-2022 22:00:58.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
-2022-03-23T22:00:58.469456374Z 23-Mar-2022 22:00:58.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.18.0-348.20.1.el8_5.x86_64
-2022-03-23T22:00:58.469529847Z 23-Mar-2022 22:00:58.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
-2022-03-23T22:00:58.469612079Z 23-Mar-2022 22:00:58.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/openjdk-8/jre
-2022-03-23T22:00:58.469682369Z 23-Mar-2022 22:00:58.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_322-b06
-2022-03-23T22:00:58.469759054Z 23-Mar-2022 22:00:58.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
-2022-03-23T22:00:58.469844486Z 23-Mar-2022 22:00:58.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/guacamole/tomcat
-2022-03-23T22:00:58.469905333Z 23-Mar-2022 22:00:58.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/tomcat
-2022-03-23T22:00:58.470098510Z 23-Mar-2022 22:00:58.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/guacamole/tomcat/conf/logging.properties
-2022-03-23T22:00:58.470164743Z 23-Mar-2022 22:00:58.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
-2022-03-23T22:00:58.470236976Z 23-Mar-2022 22:00:58.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
-2022-03-23T22:00:58.470315575Z 23-Mar-2022 22:00:58.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
-2022-03-23T22:00:58.470850475Z 23-Mar-2022 22:00:58.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
-2022-03-23T22:00:58.470861284Z 23-Mar-2022 22:00:58.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
-2022-03-23T22:00:58.470863764Z 23-Mar-2022 22:00:58.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/guacamole/tomcat
-2022-03-23T22:00:58.470865904Z 23-Mar-2022 22:00:58.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/tomcat
-2022-03-23T22:00:58.470867940Z 23-Mar-2022 22:00:58.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/guacamole/tomcat/temp
-2022-03-23T22:00:58.470870014Z 23-Mar-2022 22:00:58.470 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
-2022-03-23T22:00:58.470872211Z 23-Mar-2022 22:00:58.470 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [{4}].
-2022-03-23T22:00:58.470876751Z 23-Mar-2022 22:00:58.470 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
-2022-03-23T22:00:58.472680637Z 23-Mar-2022 22:00:58.472 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
-2022-03-23T22:00:58.523284132Z 23-Mar-2022 22:00:58.523 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
-2022-03-23T22:00:58.540721774Z 23-Mar-2022 22:00:58.540 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 414 ms
-2022-03-23T22:00:58.564681324Z 23-Mar-2022 22:00:58.564 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
-2022-03-23T22:00:58.564798350Z 23-Mar-2022 22:00:58.564 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.77]
-2022-03-23T22:00:58.580449042Z 23-Mar-2022 22:00:58.580 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/guacamole/tomcat/webapps/guacamole.war]
-2022-03-23T22:00:59.357145965Z 23-Mar-2022 22:00:59.356 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2022-03-23T22:00:59.623632594Z 22:00:59.620 [localhost-startStop-1] INFO  o.a.g.environment.LocalEnvironment - GUACAMOLE_HOME is "/home/guacamole/.guacamole".
-2022-03-23T22:00:59.704139593Z 22:00:59.703 [localhost-startStop-1] INFO  o.a.g.GuacamoleServletContextListener - Read configuration parameters from "/home/guacamole/.guacamole/guacamole.properties".
-2022-03-23T22:00:59.705682034Z 22:00:59.705 [localhost-startStop-1] INFO  o.a.g.rest.auth.HashTokenSessionMap - Sessions will expire after 60 minutes of inactivity.
-2022-03-23T22:00:59.944213732Z 22:00:59.944 [localhost-startStop-1] INFO  o.a.g.a.mysql.conf.MySQLEnvironment - Installed JDBC driver for MySQL/MariaDB detected as "MySQL Connector/J".
-2022-03-23T22:01:00.487603439Z 22:01:00.487 [localhost-startStop-1] INFO  o.a.g.extension.ExtensionModule - Extension "MySQL Authentication" (mysql) loaded.
-2022-03-23T22:01:00.566730773Z 22:01:00.566 [localhost-startStop-1] INFO  o.a.g.t.w.WebSocketTunnelModule - Loading JSR-356 WebSocket support...
-2022-03-23T22:01:01.179905325Z 23-Mar-2022 22:01:01.179 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/guacamole/tomcat/webapps/guacamole.war] has finished in [2,599] ms
-2022-03-23T22:01:01.181238700Z 23-Mar-2022 22:01:01.181 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
-2022-03-23T22:01:01.187822524Z 23-Mar-2022 22:01:01.187 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2646 ms
+2022-03-23T22:42:13.274805900Z 23-Mar-2022 22:42:13.273 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.77
+2022-03-23T22:42:13.274833969Z 23-Mar-2022 22:42:13.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 13 2022 19:13:33 UTC
+2022-03-23T22:42:13.274867327Z 23-Mar-2022 22:42:13.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.77.0
+2022-03-23T22:42:13.274932244Z 23-Mar-2022 22:42:13.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+2022-03-23T22:42:13.274992692Z 23-Mar-2022 22:42:13.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.18.0-348.20.1.el8_5.x86_64
+2022-03-23T22:42:13.275049844Z 23-Mar-2022 22:42:13.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+2022-03-23T22:42:13.275110097Z 23-Mar-2022 22:42:13.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/openjdk-8/jre
+2022-03-23T22:42:13.275171783Z 23-Mar-2022 22:42:13.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_322-b06
+2022-03-23T22:42:13.275227875Z 23-Mar-2022 22:42:13.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+2022-03-23T22:42:13.275284987Z 23-Mar-2022 22:42:13.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/guacamole/tomcat
+2022-03-23T22:42:13.275344159Z 23-Mar-2022 22:42:13.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/tomcat
+2022-03-23T22:42:13.275507906Z 23-Mar-2022 22:42:13.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/guacamole/tomcat/conf/logging.properties
+2022-03-23T22:42:13.275559383Z 23-Mar-2022 22:42:13.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+2022-03-23T22:42:13.275627816Z 23-Mar-2022 22:42:13.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+2022-03-23T22:42:13.275679619Z 23-Mar-2022 22:42:13.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+2022-03-23T22:42:13.275745038Z 23-Mar-2022 22:42:13.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+2022-03-23T22:42:13.275788050Z 23-Mar-2022 22:42:13.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+2022-03-23T22:42:13.275842521Z 23-Mar-2022 22:42:13.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/guacamole/tomcat
+2022-03-23T22:42:13.275889144Z 23-Mar-2022 22:42:13.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/tomcat
+2022-03-23T22:42:13.275948595Z 23-Mar-2022 22:42:13.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/guacamole/tomcat/temp
+2022-03-23T22:42:13.276017254Z 23-Mar-2022 22:42:13.275 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-03-23T22:42:13.276071905Z 23-Mar-2022 22:42:13.276 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [{4}].
+2022-03-23T22:42:13.276122816Z 23-Mar-2022 22:42:13.276 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-03-23T22:42:13.277996151Z 23-Mar-2022 22:42:13.277 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2022-03-23T22:42:13.331970072Z 23-Mar-2022 22:42:13.331 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+2022-03-23T22:42:13.350196863Z 23-Mar-2022 22:42:13.350 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 346 ms
+2022-03-23T22:42:13.373297661Z 23-Mar-2022 22:42:13.373 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+2022-03-23T22:42:13.373434209Z 23-Mar-2022 22:42:13.373 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.77]
+2022-03-23T22:42:13.385990083Z 23-Mar-2022 22:42:13.385 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/guacamole/tomcat/webapps/guacamole.war]
+2022-03-23T22:42:14.234745690Z 23-Mar-2022 22:42:14.234 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-03-23T22:42:14.423957907Z 22:42:14.421 [localhost-startStop-1] INFO  o.a.g.environment.LocalEnvironment - GUACAMOLE_HOME is "/home/guacamole/.guacamole".
+2022-03-23T22:42:14.482768338Z 22:42:14.482 [localhost-startStop-1] INFO  o.a.g.GuacamoleServletContextListener - Read configuration parameters from "/home/guacamole/.guacamole/guacamole.properties".
+2022-03-23T22:42:14.483894446Z 22:42:14.483 [localhost-startStop-1] INFO  o.a.g.rest.auth.HashTokenSessionMap - Sessions will expire after 60 minutes of inactivity.
+2022-03-23T22:42:14.685828423Z 22:42:14.685 [localhost-startStop-1] INFO  o.a.g.a.mysql.conf.MySQLEnvironment - Installed JDBC driver for MySQL/MariaDB detected as "MySQL Connector/J".
+2022-03-23T22:42:15.224990222Z 22:42:15.224 [localhost-startStop-1] INFO  o.a.g.extension.ExtensionModule - Extension "MySQL Authentication" (mysql) loaded.
+2022-03-23T22:42:15.304195885Z 22:42:15.304 [localhost-startStop-1] INFO  o.a.g.t.w.WebSocketTunnelModule - Loading JSR-356 WebSocket support...
+2022-03-23T22:42:15.913309561Z 23-Mar-2022 22:42:15.913 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/guacamole/tomcat/webapps/guacamole.war] has finished in [2,527] ms
+2022-03-23T22:42:15.915051826Z 23-Mar-2022 22:42:15.914 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+2022-03-23T22:42:15.923793874Z 23-Mar-2022 22:42:15.923 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2573 ms
+2022-03-23T22:42:34.007352843Z 22:42:34.007 [http-nio-8080-exec-6] WARN  o.a.g.e.AuthenticationProviderFacade - The "mysql" authentication provider has encountered an internal error which will halt the authentication process. If this is unexpected or you are the developer of this authentication provider, you may wish to enable debug-level logging. If this is expected and you wish to ignore such failures in the future, please set "skip-if-unavailable: mysql" within your guacamole.properties.
+2022-03-23T22:42:34.010324009Z 22:42:34.010 [http-nio-8080-exec-6] ERROR o.a.g.rest.RESTExceptionMapper - Unexpected internal error: 
+2022-03-23T22:42:34.010344219Z ### Error querying database.  Cause: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+2022-03-23T22:42:34.010347372Z 
+2022-03-23T22:42:34.010349495Z The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2022-03-23T22:42:34.010351751Z ### The error may exist in org/apache/guacamole/auth/jdbc/user/UserMapper.xml
+2022-03-23T22:42:34.010353687Z ### The error may involve org.apache.guacamole.auth.jdbc.user.UserMapper.selectOne
+2022-03-23T22:42:34.010355891Z ### The error occurred while executing a query
+2022-03-23T22:42:34.010357951Z ### Cause: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+2022-03-23T22:42:34.010359838Z 
+2022-03-23T22:42:34.010361658Z The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
