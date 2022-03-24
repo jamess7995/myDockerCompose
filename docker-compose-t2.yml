@@ -178,6 +178,15 @@ services:
       - PUID=$PUID
       - PGID=$PGID
       - MYSQL_ROOT_PASSWORD=$MYSQL_ROOT_PASSWORD
+# Guacamole Daemon - Needed for Guacamole
+  guacd:
+    image: guacamole/guacd
+    container_name: guacd
+    restart: unless-stopped
+    security_opt:
+      - no-new-privileges:true
+    networks:
+      - t2_proxy
 # Guacamole - Remote desktop, SSH, on Telnet on any HTML5 Browser 
   guacamole:
     image: guacamole/guacamole:latest
